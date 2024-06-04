@@ -231,7 +231,7 @@ WHERE rc.rank <= 5
 ORDER BY rc.year ASC, rc.rank ASC;
 
 --Query 5. Calculate year-on-year revenue growth for top 5 categories: 
-'health_beauty', 'watches_gifts', 'bed_bath_table', 'sports_leisure', 'computers_accessories'
+--'health_beauty', 'watches_gifts', 'bed_bath_table', 'sports_leisure', 'computers_accessories'
 WITH category_revenue AS (
     SELECT 
         EXTRACT (YEAR FROM o.order_purchase_timestamp) AS year,
