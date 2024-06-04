@@ -2,7 +2,7 @@
 
 # Introduction
 
-I investigated the Olist e-commerce dataset from Kaggle to understand its potential for business insights. PostgreSQL queries were used to extract data and calculate key performance indicators (KPIs).
+I investigated the Olist e-commerce dataset from Kaggle to understand its potential for business insights. **PostgreSQL** queries were used to extract data and calculate key performance indicators (KPIs).
 
 # Dataset
 
